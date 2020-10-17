@@ -1,6 +1,6 @@
 #### Zadanie 1
 
-Stwórz w zmienne wstawiając do każdej z nich następujące dane i wyświetl je w konsoli:
+Stwórz zmienne wstawiając do każdej z nich następujące dane i wyświetl je w konsoli:
 
 * liczbę
 * string

@@ -3,7 +3,7 @@
 Wpisz w consoli następującą instrukcję:
 
 ```JavaScript
-console.log("Twoje imię");
+console.log();
 ```
 
 #### Zadanie 2
