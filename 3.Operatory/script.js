@@ -42,8 +42,8 @@ console.log(counter);
 
 // Zadanie 6
 
-let num1 = 42;
-let num2 = 24;
+let num31 = 42;
+let num32 = 24;
 let result = null;
-result = num1 > num2;
+result = num31 > num32;
 console.log(result)
