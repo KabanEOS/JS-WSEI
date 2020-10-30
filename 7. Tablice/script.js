@@ -81,11 +81,11 @@ myTable([1,2,3,4]);
 
 // Zadanie 6
 
-function myTable(paramTable){
-    var sum =0;
-    for (i=0; i>paramTable.lenght; i++){
-        sum = sum + paramTable[i];
-    }
-    var = 
-};
-myTable([1,2,3,4]);
+// function myTable(paramTable){
+//     var sum =0;
+//     for (i=0; i>paramTable.lenght; i++){
+//         sum = sum + paramTable[i];
+//     }
+//     var =
+// };
+// myTable([1,2,3,4]);
