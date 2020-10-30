@@ -58,7 +58,7 @@
 //     console.log("*".repeat(line))
 // }
 //
-// // b)
+// b)
 //
 // let row = 5; // variable length
 // let ceil = Math.ceil(row/2);
@@ -66,13 +66,42 @@
 //     console.log(" ".repeat(z) + "* ".repeat(row-z))
 // }
 //
-// // c)
+// c)
 //
+// let row = 5;
+// let len = (row * 2)-1;
+//
+// let spaces = row - 1;
+// let stars = 1;
+// for(let p = 0; p < row; p++) {
+//     let line = '';
+//     for(let f = 0; f < spaces; f++) line += " ";
+//     for(let s = 0; s< stars; s++) line += "*";
+//     console.log(line);
+//
+//     spaces -= 1;
+//     stars += 2;
+// }
+//
+// d)
+
 let row = 5; // variable length
-let len = row + 1;
 let ceil = Math.ceil(row/2);
-for (z = len; z >= 0 ; z--){
-    console.log(" ".repeat(z) + "* ".repeat(len-1-z))
+for(z = 1; z <= row ; z++){
+    let line = " ";
+    for(let g = 1; g <= z; g++) line +="*";
+    for (x= z; x<=row-1; x++) line += x;
+    console.log(line);
 }
+console.log(" -----")
+for(z = 1; z <= row ; z++){
+    let line = " ";
+    let g = 0;
+    for(g = row; g >= z; g--) line +="*";
+    for (let h = row - z + 1;  h <= row -1; h++) line += h;
+    console.log(line);
+}
+
+
 
 
