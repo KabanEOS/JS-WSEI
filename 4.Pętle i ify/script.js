@@ -66,7 +66,7 @@
 //     console.log(" ".repeat(z) + "* ".repeat(row-z))
 // }
 //
-// c)
+// // c)
 //
 // let row = 5;
 // let len = (row * 2)-1;
@@ -83,24 +83,38 @@
 //     stars += 2;
 // }
 //
-// d)
+// // d)
+//
+// let row = 5; // variable length
+// let ceil = Math.ceil(row/2);
+// for(z = 1; z <= row ; z++){
+//     let line = " ";
+//     for(let g = 1; g <= z; g++) line +="*";
+//     for (x= z; x<=row-1; x++) line += x;
+//     console.log(line);
+// }
+// console.log(" -----")
+// for(z = 1; z <= row ; z++){
+//     let line = " ";
+//     let g = 0;
+//     for(g = row; g >= z; g--) line +="*";
+//     for (let h = row - z + 1;  h <= row -1; h++) line += h;
+//     console.log(line);
+// }
+//
+// // e)
+//
+// let row = 5; // variable length
+// let ceil = Math.ceil(row/2);
+// for (z = row; z >= 0 ; z--){
+//     console.log(" ".repeat(z) + "* ".repeat(row-z))
+// }
+// for (o = 1; o <=3; o++){
+//     console.log(" ".repeat(Math.floor (row/2)+2)+"*")
+// }
+//
+// // tail don't work variably cause cause that requirement is not mentioned in task
 
-let row = 5; // variable length
-let ceil = Math.ceil(row/2);
-for(z = 1; z <= row ; z++){
-    let line = " ";
-    for(let g = 1; g <= z; g++) line +="*";
-    for (x= z; x<=row-1; x++) line += x;
-    console.log(line);
-}
-console.log(" -----")
-for(z = 1; z <= row ; z++){
-    let line = " ";
-    let g = 0;
-    for(g = row; g >= z; g--) line +="*";
-    for (let h = row - z + 1;  h <= row -1; h++) line += h;
-    console.log(line);
-}
 
 
 
