@@ -36,10 +36,10 @@
 // }
 //
 // // Zadanie 6
-// for (let a = 1; a<=4 ;a++){
-//     for (let b = 1; b<=4; b++){
-//         console.log("a= " + a + ", b = " +b);
-//     }
+for (let a = 1; a<=4 ;a++){
+    for (let b = 1; b<=4; b++){
+        console.log("a= " + a + ", b = " +b);
+    }
 // }
 //
 // // Zadanie 7

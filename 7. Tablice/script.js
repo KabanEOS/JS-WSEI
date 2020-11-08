@@ -81,11 +81,31 @@ myTable([1,2,3,4]);
 
 // Zadanie 6
 
-// function myTable(paramTable){
-//     var sum =0;
-//     for (i=0; i>paramTable.lenght; i++){
-//         sum = sum + paramTable[i];
-//     }
-//     var =
-// };
-// myTable([1,2,3,4]);
+myTable([1,2,3,4]);
+
+function myTable(paramTable){
+    var sum =0;
+    var length = 0;
+    for (i=0; i<paramTable.length; i++){
+        if(paramTable[i] % 2 == 0){
+
+            sum = sum + paramTable[i];
+            length++;
+        }
+
+    }
+    let avg = sum / length;
+    console.log(avg)
+};
+
+// Zadanie 10
+
+// nie moje
+
+function reserveSing(paramTable)
+{
+    return  paramTable.map(el => {
+        return el * (-1);
+    })
+}
+console.log(reserveSing([1,2,3,4,6,-6]));
