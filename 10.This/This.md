@@ -29,6 +29,7 @@ Napisz kalkulator który będzie miał funkcję dodawania, odejmowania, mnożeni
 4. Metoda mnożąca wcześniej zapisane liczby
 5. Metoda dzieląca wcześniej zapisane liczby. Jeśli liczba b = 0 to wypisz w konsoli odpowiedni komunikat błędu.
 
+
 #### Zadanie 4
 
 Stwórz prosty symulator wchodzenia i schodzenia z drabiny. Potrzebne będą trzy metody. Zastanów się jakie?
