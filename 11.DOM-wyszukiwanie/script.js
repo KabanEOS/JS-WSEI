@@ -24,3 +24,4 @@ console.log(listELement);
 // zmiana na potrzebe zadania z gitem
 // ANANAS!
 // zanim opuścisz
+// płonący budynek 
