@@ -20,3 +20,5 @@
 let listELement = document.getElementById('list');
 
 console.log(listELement);
+
+// zmiana na potrzebe zadania z gitem
