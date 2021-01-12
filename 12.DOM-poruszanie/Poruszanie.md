@@ -37,7 +37,7 @@ W div id="ex5" znajdują się trzy prostokąty. Po najechaniu na dowolny z nich 
 #### Zadanie 6
 
 W div id="ex6" zaczynając od tego diva znajdź i zapisz do zmiennych następujące kombinacje:
-
+u
 1. pierwsze dziecko -> pierwsze dziecko -> pierwsze dziecko
 2. pierwsze dziecko -> rodzic -> pierwsze dziecko -> pierwsze dziecko -> brat -> rodzic
 3. rodzic -> pierwsze dziecko -> rodzic -> drugie dziecko -> pierwsze dziecko -> pierwsze dziecko -> pierwsze dziecko

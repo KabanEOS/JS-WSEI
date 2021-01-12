@@ -1,10 +1,10 @@
 #### Zadanie 1
 
-Stwórz obiekt car i dopisz do niego różne właściwości. Wypisz właściwości w konsoli.
+Stwórz obiekt car i dopisz do niego różne właściwości. Wypisz właściwości w konsoli
 
 #### Zadanie 2
 
-Na podstawie obiektu z zadania 1 dopisz do niego metodę zmieniającą jego dowolną właściwość na podstawie parametru przekazanego z wywołania metody.
+Na podstawie obiektu z zadania 1 dopisz do niego metodę zmieniającą jego nazwę na podstawie parametru przekazanego z wywołania metody.
 
 #### Zadanie 3
 
@@ -18,7 +18,7 @@ name: BMW
 age: 12
 ...
 
-Czyli pary klucz wartość.
+Czy pary klucz wartość.
 
 #### Zadanie 5
 

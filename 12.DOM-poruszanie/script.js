@@ -4,6 +4,7 @@
 // const baz = document.querySelector("#baz");
 // const foo = document.querySelector("#foo");
 //
+// console.log(buz.parentElementu);
 // console.log(buz.parentElement);
 // console.log(baz.previousElementSibling);
 // console.log(foo.children);
@@ -65,29 +66,38 @@
 
 // Zadanie 5
 
-var elements = document.querySelectorAll("div#ex5 div");
+// var elements = document.querySelectorAll("div#ex5 div");
+//
+// var listElements = document.querySelectorAll("div#ex5 li");
+//
+// for(var i = 0; i < elements.length; i++){
+//     elements[i].addEventListener('mouseover', function(){
+//         var color = this.style.backgroundColor;
+//
+//         listElements[0].style.backgroundColor = color;
+//         listElements[listElements.length - 1].style.backgroundColor = color;
+//         for(var j = 0; j < listElements.length; j++) {
+//             if(j % 2 !== 0) {
+//                 listElements[j].style.backgroundColor = color;
+//             }
+//         }
+//         for(var j = 0; j < listElements.length; j++) {
+//             listElements[j].style.backgroundColor = color;
+//         }
+//
+//         ulElement.style.backgroundColor = color;
+//     })
+// }
 
-var listElements = document.querySelectorAll("div#ex5 li");
+// // Zadanie 6
 
-for(var i = 0; i < elements.length; i++){
-    elements[i].addEventListener('mouseover', function(){
-        var color = this.style.backgroundColor;
+let ex61 = document.querySelector("#ex6").firstElementChild.firstElementChild.firstElementChild;
+console.log(ex61);
 
-        //listElements[0].style.backgroundColor = color;
-        //listElements[listElements.length - 1].style.backgroundColor = color;
-        /*for(var j = 0; j < listElements.length; j++) {
-            if(j % 2 !== 0) {
-                listElements[j].style.backgroundColor = color;
-            }
-        }*/
-        /*for(var j = 0; j < listElements.length; j++) {
-            listElements[j].style.backgroundColor = color;
-        }*/
+let ex62 = document.querySelector('#ex6').firstElementChild.parentNode.firstElementChild.firstElementChild.nextElementSibling.parentNode;
+console.log(ex62);
 
-        ulElement.style.backgroundColor = color;
-        
-    })
-}
-
-
-
+let ex63 = document.querySelector('#ex6').parentNode.firstElementChild.parentNode.secondElementChild.firstElementChild.firstElementChild.firstElementChild;
+console.log(ex63);
+ 
+// potrzebna konsultacja : script.js:100 Uncaught TypeError: Cannot read property 'firstElementChild' of undefined
