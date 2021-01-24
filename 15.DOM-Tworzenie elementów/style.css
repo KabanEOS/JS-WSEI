@@ -1,0 +1,10 @@
+.fruits {
+    display: flex;
+    display: inline-flex;
+}
+
+img {
+    max-width: 200px;
+    width: 300;
+    height: auto;
+}

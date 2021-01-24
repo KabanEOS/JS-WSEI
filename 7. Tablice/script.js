@@ -101,7 +101,6 @@
 //
 // // Zadanie 10
 //
-// // nie moje
 //
 // function reserveSing(paramTable)
 // {

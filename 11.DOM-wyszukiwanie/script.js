@@ -17,6 +17,18 @@
 
 // // Zadanie 3
 
-let listELement = document.getElementById('list');
+// let listELement = document.getElementById('list');
 
-console.log(listELement);
+// console.log(listELement);
+
+// // Zadanie 4
+
+// function elements(element) {
+//     console.log(element);
+// }
+
+// elements(document.querySelectorAll("li"));
+// elements(document.querySelectorAll("ul"));
+// elements(document.querySelectorAll("span"));
+// elements(document.querySelectorAll("div.list span"));
+// elements(document.querySelectorAll("div#spans span"));
