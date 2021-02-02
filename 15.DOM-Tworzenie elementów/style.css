@@ -1,10 +1,48 @@
+body {
+  font: 15px Arial, sans-serif;
+}
+
 .fruits {
-    display: flex;
-    display: inline-flex;
+  display: flex;
+  display: inline-flex;
 }
 
 img {
-    max-width: 200px;
-    width: 300;
-    height: auto;
+  max-width: 200px;
+  width: 300;
+  height: auto;
+}
+
+.myForm {
+  width: 30vw;
+  display: grid;
+  grid-template-columns: [labels] auto [controls] 1fr;
+  grid-auto-flow: row;
+  grid-gap: 0.8em;
+  background: #eee;
+  padding: 1.2em;
+}
+/* button {
+    margin: 1rem;
+    width: 100px;
+} */
+
+.myForm > label {
+  grid-column: labels;
+  grid-row: auto;
+}
+.myForm > input,
+.myForm > textarea,
+.myForm > button {
+  grid-column: controls;
+  grid-row: auto;
+  padding: 1em;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.h > td {
+    border: 2px solid black;
 }

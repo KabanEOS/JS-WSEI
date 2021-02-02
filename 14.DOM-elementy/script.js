@@ -131,15 +131,15 @@
 
 // // Zadanie 11
 
-// var items = document.querySelector("#longList")
+var items = document.querySelector("#longList")
 
-// var children = items.children;
+var children = items.children;
 
-// function rndVal(children) {
-//     for (var i = 0; i < children.length; i++){
-//         children[i].dataset.value = children[i].innerHTML;
-//         children[i].innerHTML = Math.floor(Math.random() * (10));
-//     }
-// }
+function rndVal(children) {
+    for (var i = 0; i < children.length; i++){
+        children[i].dataset.value = children[i].innerHTML;
+        children[i].innerHTML = Math.floor(Math.random() * (10));
+    }
+}
 
-// rndVal(children);
+rndVal(children);
