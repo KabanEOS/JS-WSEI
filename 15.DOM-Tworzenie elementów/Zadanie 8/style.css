@@ -1,0 +1,59 @@
+body {
+    font: 15px Arial, sans-serif;
+  }
+  
+  .wrapper {
+    background: #eee;
+    width: 100%;
+  }
+  
+  .myForm {
+    margin: 0 auto;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-auto-flow: row;
+    grid-gap: 0.8em;
+    background: #eee;
+    padding: 40px;
+  }
+  
+  .myForm > label {
+    grid-column: labels;
+    grid-row: auto;
+  }
+  .myForm > input,
+  .myForm > textarea,
+  .myForm > button {
+    grid-column: controls;
+    grid-row: auto;
+    padding: 1em;
+  }
+  
+  td,
+  th {
+    width: 300px;
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    background: hsl(0, 0%, 100%);
+  }
+  
+  .btns {
+    margin: 0 auto;
+  }
+  tbody {
+    width: 300px;
+  }
+  
+  .h > td {
+    border: 2px solid black;
+  }
+  div#wrapper {
+    background: #eee;
+    height: 100vh;
+  }
+  table {
+    margin: 0 auto;
+  }
+  

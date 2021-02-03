@@ -1,0 +1,15 @@
+body {
+  font: 15px Arial, sans-serif;
+}
+
+.fruits {
+  display: flex;
+  display: inline-flex;
+}
+
+img {
+  max-width: 200px;
+  width: 300;
+  height: auto;
+}
+
