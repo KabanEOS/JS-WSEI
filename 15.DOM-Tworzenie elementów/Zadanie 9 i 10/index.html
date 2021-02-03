@@ -25,10 +25,11 @@
             <label name="children" id="children">Children </label>
             <input type="number" name="children" id="children" required>
 
-            <button type="submit">Create</button>
+            <button type="submit">Submit</button>
+            <button onclick="createTable()"  onclick="toggle_visibility('table')">CreateTable</button>
         </form>
         
-        <table id="table" style="display:show">
+        <table id="table" style="display:none">
 
         <!-- powinno zmieniać on click create table na show z none, nie robi więc dałem powyżej show -->
 
