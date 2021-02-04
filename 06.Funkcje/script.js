@@ -1,40 +1,45 @@
-// Zadanie 1
+// // Zadanie 1
 // let sayHi = () => {
 //     console.log("Udało się!")
 // };
 // sayHi();
 //
-//Zadanie 2
 
+// // Zadanie 2
 
-//Zadanie 3
-
-// let txt = 'omg';
+// let txt = 'wow';
 // returnString  = (txt) => {
 //     return txt;
 // }
 // console.log(returnString(txt));
 
-// Zadanie 4
-// function myString(paramStr) {
-// let counter = 0;
+// // Zadanie 3
 
-// setInterval(() => {
-//         counter++;
-//         if(counter == 5)
-//         {
-//         console.log("Koniec");
-//         clearInterval(setInterval())
-//         }
-//         else{
-//             console.log(paramStr)
-//         }
-//         console.log(paramStr);
-//     }, 3000);
+// let txt = ['omg','wow','itd'];
+// returnTable  = (txt) => {
+//     return txt;
 // }
+// console.log(returnTable(txt));
 
-// myString('Jakiś string');
+// // Zadanie 4
 
+counter = 0;
 
+function idle() {
+  myInterval = setInterval(count, 3000);
+}
 
+function count() {
+  console.log("bum");
+  counter++;
+  if (counter == 5) {
+    console.log("Koniec");
+    stop();
+  }
+}
 
+function stop() {
+  clearInterval(myInterval);
+}
+
+idle();
