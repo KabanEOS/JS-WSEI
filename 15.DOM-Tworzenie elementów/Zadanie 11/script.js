@@ -12,6 +12,13 @@ function iterateString() {
     }
   });
 
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+
+  console.log(sum);
+
   let pro = 1;
   for (let i = 0; i < numbers.length; i++) {
     pro = pro * numbers[i];
@@ -26,13 +33,10 @@ function createDivs(pro) {
   for (var i = 1; i < pro; i++) {
     let divElement = document.createElement("div");
 
-    // create text node
     let divElementText = document.createTextNode(string);
 
-    // append text node to div
     divElement.appendChild(divElementText);
 
-    // append div element to document
     document.body.appendChild(divElement);
   }
 }
